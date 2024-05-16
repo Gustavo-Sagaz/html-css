@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #27C23E;
+}
+    
+header{
+    text-align: center;
+    background-image: linear-gradient( to bottom, #01F525, #398F46);
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.473);
+}
+header > p{
+    margin-top: 10px;
+    color: white;
+}
+nav{
+    text-align: left;
+    margin-top: 10px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 400px;
+    max-width: 800px;
+    
+}
+#principal{
+    color: #398F46;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px; 
+    
+}
+.paragrafo{
+    text-indent: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+h2.sub{
+    color: #398F46;
+    margin: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #398f4670, white );
+}
+.android{
+   margin-left: 25%;
+}
+div{
+    background-color: #398F46;
+}
+div > iframe{
+    margin-left: 49px;
+   
+}
+ul{
+    list-style-type: '\2714 ';
+    columns: 2;
+    list-style-position : inside;
+}
+aside{
+    border: 1px solid transparent;
+    margin: 0px 10px 10px 0px;
+    background-color: #4afd65;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+aside > h2{
+    background-color: #22c93b;
+    padding: 5px;
+}
+footer{
+    background-color: #1f4e26;
+}
+footer > p{
+    color: white;
+    text-align: center;
+}

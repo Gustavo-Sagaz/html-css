@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #558125, #9ECC44);/*Degrade*/
+}
+main{
+    background-color: #fff;
+    width: 600px;/*largura*/
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px  5px 15px #2D5116;/*Sombra*/
+}
+p{
+    text-align: justify;
+}
+h1{
+    color: #2D5116;
+    text-align: center;/*Centraliza o texto no meio*/
+    text-shadow: 1px 1px 3px #2D5116;/*Sobra no texto*/
+}
+h2{
+    color: #5D7E48;
+    text-shadow: 1px 1px 2px #5D7E48;
+}
